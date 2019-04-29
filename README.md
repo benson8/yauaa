@@ -20,13 +20,13 @@ The detection for Microsoft Edge now no longer reports the 'EdgeHtml' version as
 
 Version 5.6
 ---
-In version 5.6 the number of detected DeviceBrands is greatly increased.
+In version 5.6 the number of detected DeviceBrands is increased.
 The detection system for the DeviceBrand has been rewritten and as a consequence both the memory usage and the time needed for the analysis have been decreased.
 
 Version 5.5
 ---
 With Google Chrome 70 the useragent string pattern has been changed on Android ( https://www.chromestatus.com/feature/4558585463832576 ) .
-As a consequence the detection of the DeviceBrand failed and you always get "Unknown". 
+As a consequence the detection of the DeviceBrand failed and you always get "Unknown".
 This has been fixed in Yauaa 5.5.
 
 Version 5.1 is bad.
