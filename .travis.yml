@@ -21,7 +21,7 @@ jdk:
   - oraclejdk8
 
 script:
-  - mvn -Dtest=TestPredefinedBrowsers test
+  - mvn test
 
 cache:
   directories:
