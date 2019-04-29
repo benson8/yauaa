@@ -2426,19 +2426,19 @@ config:
     variable:
     - 'PTSTVersion:agent.product.name="PTST"^.(2)version'
     extract:
-    - '__Set_ALL_Fields__                  :   4999 : "<<<null>>>"' # Must be 1 lower than the rest (or you will wipe yourself too)
-    - 'DeviceClass                         :   5001 : "Robot Mobile"'
-    - 'DeviceName                          :   5001 : "SpeedCurve WebpageTest"'
-    - 'DeviceBrand                         :   5001 : "SpeedCurve"'
-    - 'OperatingSystemClass                :   5001 : "Cloud"'
-    - 'OperatingSystemName                 :   5001 : "Cloud"'
-    - 'OperatingSystemVersion              :   5001 : "??"'
-    - 'LayoutEngineClass                   :   5001 : "Robot"'
-    - 'LayoutEngineName                    :   5001 : "SpeedCurve WebpageTest"'
-    - 'LayoutEngineVersion                 :   5001 : @PTSTVersion'
-    - 'AgentClass                          :   5001 : "Robot"'
-    - 'AgentName                           :   5001 : "SpeedCurve WebpageTest"'
-    - 'AgentVersion                        :   5001 : @PTSTVersion'
+    - '__Set_ALL_Fields__                  :   5999 : "<<<null>>>"' # Must be 1 lower than the rest (or you will wipe yourself too)
+    - 'DeviceClass                         :   6001 : "Robot Mobile"'
+    - 'DeviceName                          :   6001 : "SpeedCurve WebpageTest"'
+    - 'DeviceBrand                         :   6001 : "SpeedCurve"'
+    - 'OperatingSystemClass                :   6001 : "Cloud"'
+    - 'OperatingSystemName                 :   6001 : "Cloud"'
+    - 'OperatingSystemVersion              :   6001 : "??"'
+    - 'LayoutEngineClass                   :   6001 : "Robot"'
+    - 'LayoutEngineName                    :   6001 : "SpeedCurve WebpageTest"'
+    - 'LayoutEngineVersion                 :   6001 : @PTSTVersion'
+    - 'AgentClass                          :   6001 : "Robot"'
+    - 'AgentName                           :   6001 : "SpeedCurve WebpageTest"'
+    - 'AgentVersion                        :   6001 : @PTSTVersion'
 
 - test:
     input:
