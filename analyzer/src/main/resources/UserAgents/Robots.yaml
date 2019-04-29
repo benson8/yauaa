@@ -2419,8 +2419,6 @@ config:
     - 'AgentVersion                        :   5001 : @PTSTVersion'
 
 - matcher:
-    options:
-    - 'verbose'
     require:
     - 'agent.product.(1)version="SpeedCurve"'
     - 'agent.product.name{"Mobile"'
