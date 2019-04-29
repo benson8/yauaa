@@ -9,7 +9,7 @@ Yauaa: Yet Another UserAgent Analyzer
 
 This is a java library that tries to parse and analyze the useragent string and extract as many relevant attributes as possible.
 
-The full documentation can be found here [https://yauaa.basjes.nl](https://yauaa.basjes.nl)
+Full documentation can be found here [https://yauaa.basjes.nl](https://yauaa.basjes.nl)
 
 HIGH Profile release notes:
 ===========================
