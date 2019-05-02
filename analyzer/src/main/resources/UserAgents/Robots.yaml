@@ -2421,8 +2421,7 @@ config:
 - matcher:
     require:
     - 'agent.product.(1)version="SpeedCurve"'
-    - 'agent.product.name[1]="Mobile"'
-    - 'agent.product.name[2]="Safari"'
+    - 'agent.product.name[1-1]="Mobile"'
     variable:
     - 'PTSTVersion:agent.product.name="PTST"^.(2)version'
     extract:
